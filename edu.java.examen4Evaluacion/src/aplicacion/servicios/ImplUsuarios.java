@@ -47,7 +47,7 @@ public class ImplUsuarios implements InterfazUsuarios {
 		// Controlamos si es veterinario o no
 		if(opcion.equals("s"))
 			esVeterinario=true;
-		else if(opcion.equals("n"))
+		else
 			esVeterinario=false;
 		
 		

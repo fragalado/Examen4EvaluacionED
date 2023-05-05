@@ -42,27 +42,27 @@ public class Menu {
 			}
 			
 			switch (opcion) {
-			case 1:
-				// Crea Usuario
-				try {
-					listaBD = intU.crearUsuario(listaBD);
-					intF.escribeFicheroSobreescribiendo("c:\\zDatosPrueba\\examen4EvaluacionED.txt", listaBD);
-				} catch (Exception e) {
-					System.err.println("** Error: No se ha podido crear el usuario **");
-				}
-				break;
-			case 2:
-				// Mostrar usuarios desde fichero
-				try {
-					intU.mostrarUsuariosFichero("c:\\zDatosPrueba\\examen4EvaluacionED.txt");
-				} catch (Exception e) {
-					System.err.println("** Error: No se ha podido mostrar los usuarios **");
-				}
-				break;
-			case 0:
-				// Salir
-				System.out.println("Saliendo...");
-				break;
+				case 1:
+					// Crea Usuario
+					try {
+						listaBD = intU.crearUsuario(listaBD);
+						intF.escribeFicheroSobreescribiendo("c:\\zDatosPrueba\\examen4EvaluacionED.txt", listaBD);
+					} catch (Exception e) {
+						System.err.println("** Error: No se ha podido crear el usuario **");
+					}
+					break;
+				case 2:
+					// Mostrar usuarios desde fichero
+					try {
+						intU.mostrarUsuariosFichero("c:\\zDatosPrueba\\examen4EvaluacionED.txt");
+					} catch (Exception e) {
+						System.err.println("** Error: No se ha podido mostrar los usuarios **");
+					}
+					break;
+				case 0:
+					// Salir
+					System.out.println("Saliendo...");
+					break;
 			}
 		} while (opcion != 0);
 	}

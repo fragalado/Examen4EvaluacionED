@@ -9,7 +9,7 @@ public class Veterinarios extends Usuarios {
 	
 	// Atributos
 	
-	private String numeroColegiado = "aaaaaaaaaaaaaaaaaaaaa";
+	private String numeroColegiado = "aaaaaaaaaaaaaaaaaaa";
 	
 	// Constructores
 	
@@ -24,8 +24,6 @@ public class Veterinarios extends Usuarios {
 		return numeroColegiado;
 	}
 
-
-	
 	// toString
 	
 	@Override

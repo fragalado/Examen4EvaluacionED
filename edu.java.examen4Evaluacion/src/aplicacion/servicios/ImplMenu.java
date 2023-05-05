@@ -18,7 +18,7 @@ public class ImplMenu implements InterfazMenu {
 		int opcion = -1;
 		do {
 			System.out.println("1. Crear Usuario");
-			System.out.println("2. Mostrar usuarios");
+			System.out.println("2. Mostrar usuarios desde fichero");
 			System.out.println("0. Salir");
 			System.out.print("Introduzca una opción: ");
 			opcion = sc.nextInt();

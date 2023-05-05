@@ -19,6 +19,9 @@ public interface InterfazUsuarios {
 	 */
 	public List<Usuarios> crearUsuario(List<Usuarios> listaBD);
 	
-	
+	/**
+	 * Método que muestra por consola los objetos Usuarios que crea a partir de un fichero
+	 * @param ruta
+	 */
 	public void mostrarUsuariosFichero(String ruta);
 }
